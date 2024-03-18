@@ -1,0 +1,46 @@
+-- Existing sdkconfig 'D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/sdkconfig' renamed to 'D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/sdkconfig.old'.
+-- Found Git: D:/Users/NguyenDuyToan/.espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/Users/NguyenDuyToan/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Users/NguyenDuyToan/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/Users/NguyenDuyToan/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32c3
+-- Project sdkconfig file D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: D:/Users/NguyenDuyToan/.espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "mqtt_tcp" version: 1
+-- Adding linker script D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_system/ld/esp32c3/sections.ld.in
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.api.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.libgcc.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.newlib.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.version.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom/esp32c3/ld/esp32c3.rom.eco3.ld
+-- Adding linker script D:/Users/NguyenDuyToan/esp/esp-idf/components/soc/esp32c3/ld/esp32c3.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table protobuf-c protocol_examples_common protocomm pthread riscv sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: D:/Users/NguyenDuyToan/esp/esp-idf/components/app_trace D:/Users/NguyenDuyToan/esp/esp-idf/components/app_update D:/Users/NguyenDuyToan/esp/esp-idf/components/bootloader D:/Users/NguyenDuyToan/esp/esp-idf/components/bootloader_support D:/Users/NguyenDuyToan/esp/esp-idf/components/bt D:/Users/NguyenDuyToan/esp/esp-idf/components/cmock D:/Users/NguyenDuyToan/esp/esp-idf/components/console D:/Users/NguyenDuyToan/esp/esp-idf/components/cxx D:/Users/NguyenDuyToan/esp/esp-idf/components/driver D:/Users/NguyenDuyToan/esp/esp-idf/components/efuse D:/Users/NguyenDuyToan/esp/esp-idf/components/esp-tls D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_adc D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_app_format D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_coex D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_common D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_eth D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_event D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_gdbstub D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_hid D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_http_client D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_http_server D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_https_ota D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_https_server D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_hw_support D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_lcd D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_local_ctrl D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_mm D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_netif D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_netif_stack D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_partition D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_phy D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_pm D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_psram D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_ringbuf D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_rom D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_system D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_timer D:/Users/NguyenDuyToan/esp/esp-idf/components/esp_wifi D:/Users/NguyenDuyToan/esp/esp-idf/components/espcoredump D:/Users/NguyenDuyToan/esp/esp-idf/components/esptool_py D:/Users/NguyenDuyToan/esp/esp-idf/components/fatfs D:/Users/NguyenDuyToan/esp/esp-idf/components/freertos D:/Users/NguyenDuyToan/esp/esp-idf/components/hal D:/Users/NguyenDuyToan/esp/esp-idf/components/heap D:/Users/NguyenDuyToan/esp/esp-idf/components/http_parser D:/Users/NguyenDuyToan/esp/esp-idf/components/idf_test D:/Users/NguyenDuyToan/esp/esp-idf/components/ieee802154 D:/Users/NguyenDuyToan/esp/esp-idf/components/json D:/Users/NguyenDuyToan/esp/esp-idf/components/log D:/Users/NguyenDuyToan/esp/esp-idf/components/lwip D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/main D:/Users/NguyenDuyToan/esp/esp-idf/components/mbedtls D:/Users/NguyenDuyToan/esp/esp-idf/components/mqtt D:/Users/NguyenDuyToan/esp/esp-idf/components/newlib D:/Users/NguyenDuyToan/esp/esp-idf/components/nvs_flash D:/Users/NguyenDuyToan/esp/esp-idf/components/openthread D:/Users/NguyenDuyToan/esp/esp-idf/components/partition_table D:/Users/NguyenDuyToan/esp/esp-idf/components/protobuf-c D:/Users/NguyenDuyToan/esp/esp-idf/examples/common_components/protocol_examples_common D:/Users/NguyenDuyToan/esp/esp-idf/components/protocomm D:/Users/NguyenDuyToan/esp/esp-idf/components/pthread D:/Users/NguyenDuyToan/esp/esp-idf/components/riscv D:/Users/NguyenDuyToan/esp/esp-idf/components/sdmmc D:/Users/NguyenDuyToan/esp/esp-idf/components/soc D:/Users/NguyenDuyToan/esp/esp-idf/components/spi_flash D:/Users/NguyenDuyToan/esp/esp-idf/components/spiffs D:/Users/NguyenDuyToan/esp/esp-idf/components/tcp_transport D:/Users/NguyenDuyToan/esp/esp-idf/components/ulp D:/Users/NguyenDuyToan/esp/esp-idf/components/unity D:/Users/NguyenDuyToan/esp/esp-idf/components/usb D:/Users/NguyenDuyToan/esp/esp-idf/components/vfs D:/Users/NguyenDuyToan/esp/esp-idf/components/wear_levelling D:/Users/NguyenDuyToan/esp/esp-idf/components/wifi_provisioning D:/Users/NguyenDuyToan/esp/esp-idf/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build

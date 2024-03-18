@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/CMakeFiles/bootloader
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/CMakeFiles/bootloader.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/CMakeFiles/bootloader-complete.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Lab_IOTs/ESP32-C3/Lab-LT-Buoi2/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
