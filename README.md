@@ -1,61 +1,35 @@
-| Supported Targets | ESP32 | ESP32-C2 | ESP32-C3 | ESP32-C6 | ESP32-H2 | ESP32-S2 | ESP32-S3 |
-| ----------------- | ----- | -------- | -------- | -------- | -------- | -------- | -------- |
+# IoT System for Remote LED Control and Temperature Monitoring
 
-# ESP-MQTT sample application
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## Project Overview
+This repository contains the code for an IoT system that uses an ESP32-C3 microcontroller to control an LED remotely and monitor temperature using a DS18B20 sensor. The system communicates via MQTT over TCP.
 
-This example connects to the broker URI selected using `idf.py menuconfig` (using mqtt tcp transport) and as a demonstration subscribes/unsubscribes and send a message on certain topic.
-(Please note that the public broker is maintained by the community so may not be always available, for details please see this [disclaimer](https://iot.eclipse.org/getting-started/#sandboxes))
+## Features
+- Remote LED control via MQTT
+- Real-time temperature monitoring with DS18B20
+- Secure communication over TCP
 
-Note: If the URI equals `FROM_STDIN` then the broker address is read from stdin upon application startup (used for testing)
+## Technologies Used
+- **Hardware**: ESP32-C3, DS18B20 sensor, LED
+- **Software**: Arduino IDE, MQTT protocol, TCP communication
 
-It uses ESP-MQTT library which implements mqtt client to connect to mqtt broker.
+## Setup Instructions
+1. **Hardware Setup**:
+   - Connect the DS18B20 sensor and LED to the ESP32-C3.
+   - Ensure the ESP32-C3 is connected to the network.
 
-## How to use example
+2. **Software Setup**:
+   - Clone the repository: `git clone https://github.com/yourusername/IoT-ESP32-C3-MQTT-TCP-RemoteLed-DS18B20`
+   - Open the project in Arduino IDE.
+   - Install necessary libraries (MQTT, OneWire, DallasTemperature).
+   - Configure Wi-Fi and MQTT broker settings in the code.
+   - Upload the code to the ESP32-C3.
 
-### Hardware Required
+## Usage
+- Use an MQTT client to send commands to control the LED.
+- Monitor the temperature readings from the DS18B20 sensor in real-time.
 
-This example can be executed on any ESP32 board, the only required interface is WiFi and connection to internet.
+## Contributing
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Configure the project
-
-* Open the project configuration menu (`idf.py menuconfig`)
-* Configure Wi-Fi or Ethernet under "Example Connection Configuration" menu. See "Establishing Wi-Fi or Ethernet Connection" section in [examples/protocols/README.md](../../README.md) for more details.
-
-### Build and Flash
-
-Build the project and flash it to the board, then run monitor tool to view serial output:
-
-```
-idf.py -p PORT flash monitor
-```
-
-(To exit the serial monitor, type ``Ctrl-]``.)
-
-See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
-
-## Example Output
-
-```
-I (3714) event: sta ip: 192.168.0.139, mask: 255.255.255.0, gw: 192.168.0.2
-I (3714) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
-I (3964) MQTT_CLIENT: Sending MQTT CONNECT message, type: 1, id: 0000
-I (4164) MQTT_EXAMPLE: MQTT_EVENT_CONNECTED
-I (4174) MQTT_EXAMPLE: sent publish successful, msg_id=41464
-I (4174) MQTT_EXAMPLE: sent subscribe successful, msg_id=17886
-I (4174) MQTT_EXAMPLE: sent subscribe successful, msg_id=42970
-I (4184) MQTT_EXAMPLE: sent unsubscribe successful, msg_id=50241
-I (4314) MQTT_EXAMPLE: MQTT_EVENT_PUBLISHED, msg_id=41464
-I (4484) MQTT_EXAMPLE: MQTT_EVENT_SUBSCRIBED, msg_id=17886
-I (4484) MQTT_EXAMPLE: sent publish successful, msg_id=0
-I (4684) MQTT_EXAMPLE: MQTT_EVENT_SUBSCRIBED, msg_id=42970
-I (4684) MQTT_EXAMPLE: sent publish successful, msg_id=0
-I (4884) MQTT_CLIENT: deliver_publish, message_length_read=19, message_length=19
-I (4884) MQTT_EXAMPLE: MQTT_EVENT_DATA
-TOPIC=/topic/qos0
-DATA=data
-I (5194) MQTT_CLIENT: deliver_publish, message_length_read=19, message_length=19
-I (5194) MQTT_EXAMPLE: MQTT_EVENT_DATA
-TOPIC=/topic/qos0
-DATA=data
-```
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
